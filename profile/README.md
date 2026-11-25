@@ -15,7 +15,7 @@ This organisation hosts the open source plugins that bring Supertext into the sy
 | Adobe Experience Manager | [supertext-aem-connector](https://github.com/Supertext/supertext-aem-connector) | Translation connector: two AEM content packages for AEM's Translation Integration Framework. | Sends AEM translation projects to Supertext and imports the results |
 | ApostropheCMS | [Apostrophe-Supertext-Translation](https://github.com/Supertext/Apostrophe-Supertext-Translation) | Apostrophe module (npm): a translation provider for Apostrophe's own *Localize…* step. | Translates pages and pieces as editors localize them, widgets and rich text included |
 | Contao | [Contao-Supertext-Translation](https://github.com/Supertext/Contao-Supertext-Translation) | Contao bundle (Composer) that adds a back-end action. | *Translate with Supertext* in the site structure: pages or whole websites into other languages |
-| Craft CMS | [CraftCms-Supertext-Translation](https://github.com/Supertext/CraftCms-Supertext-Translation) | Craft plugin (Composer) with a panel on the entry page. | Translates entries into your other sites, Matrix and rich text included |
+| Craft CMS | [CraftCms-Supertext-Translation](https://github.com/Supertext/CraftCms-Supertext-Translation) | Craft plugin (Composer) with a Supertext box on the edit page. | Translates entries, categories, global sets and assets into your other sites, Matrix, CKEditor and SEOmatic included |
 | Directus | [Directus-Supertext-Translation](https://github.com/Supertext/Directus-Supertext-Translation) | Directus extension bundle (npm): interface, endpoint, Flow operation and module. | *Translate with Supertext* box on the item form, fills the Translations field |
 | django CMS | [djangoCMS-Supertext-Translation](https://github.com/Supertext/djangoCMS-Supertext-Translation) | Django app (Python package) that adds a toolbar entry. | Translates pages and their plugins from the toolbar |
 | Drupal | [tmgmt_supertext_ai](https://www.drupal.org/project/tmgmt_supertext_ai) | Drupal module: a translator provider for the Translation Management Tool (TMGMT), by MD Systems. | Translates TMGMT jobs with Supertext AI |
@@ -33,6 +33,7 @@ This organisation hosts the open source plugins that bring Supertext into the sy
 | Umbraco | [Umbraco-Supertext-Translation](https://github.com/Supertext/Umbraco-Supertext-Translation) | Umbraco package (NuGet) with a backoffice extension. | *Translate with Supertext* for pages, block lists and grids included |
 | Wagtail | [Wagtail-Supertext-Translation](https://github.com/Supertext/Wagtail-Supertext-Translation) | Python package: a machine translator for wagtail-localize. | Translates pages and snippets inside wagtail-localize's editor |
 | WordPress (Polylang) | [Wordpress-Polylang-Supertext-Translation](https://github.com/Supertext/Wordpress-Polylang-Supertext-Translation) | WordPress plugin: a machine-translation service for Polylang Pro, plus professional translation orders. | AI translation next to DeepL in Polylang, and human translation orders |
+| WordPress (WPML) | [Wordpress-WPML-Supertext-Translation](https://github.com/Supertext/Wordpress-WPML-Supertext-Translation) | WordPress plugin for WPML, with bulk actions in the posts and pages lists and a Supertext box in the editor. | AI translation into your WPML languages, professional translation orders and XLIFF/HTML translation files |
 
 ### Product information management (PIM)
 
@@ -67,7 +68,7 @@ This organisation hosts the open source plugins that bring Supertext into the sy
 
 ## Build your own integration
 
-The [integration guide and SDKs](https://github.com/Supertext/Supertext-API-SDK-Guide) (TypeScript, PHP, Python, .NET, Java) cover the Supertext AI translation API and everything these plugins learned about it.
+The [integration guide and SDKs](https://github.com/Supertext/Supertext-API-SDK-Guide) (TypeScript, PHP, Python, .NET, Java, Kotlin) cover the Supertext AI translation API and everything these plugins learned about it.
 
 ## Contributing and security
 
